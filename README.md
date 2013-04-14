@@ -5,9 +5,9 @@ perl module for easy interaction with uWSGI servers or for manipulating uwsgi pa
 
 
 Synopsys
-********
+========
 
-.. code-block:: pl
+```perl
 
    use Net::uwsgi;
    
@@ -42,3 +42,4 @@ Synopsys
    
    # spool a request in the uwsgi spooler
    uwsgi_spool('ubuntu64.local:3031', {'test'=>'test001','argh'=>'boh','foo'=>'bar'});
+```
