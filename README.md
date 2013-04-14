@@ -5,7 +5,7 @@ perl module for easy interaction with uWSGI servers or for manipulating uwsgi pa
 
 
 Synopsys
-========
+--------
 
 ```perl
 
