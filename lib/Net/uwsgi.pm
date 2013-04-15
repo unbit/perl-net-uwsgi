@@ -8,7 +8,7 @@ use IO::Socket::INET;
 use IO::Socket::UNIX;
 use IO::Select;
 
-$VERSION     = 1.00;
+$VERSION     = 1.1;
 @ISA         = qw(Exporter);
 @EXPORT      = qw(uwsgi_pkt uwsgi_rpc uwsgi_signal uwsgi_spool uwsgi_cache_get uwsgi_cache_exists uwsgi_cache_del uwsgi_cache_set uwsgi_cache_update uwsgi_parse_header uwsgi_parse_body uwsgi_parse_hash uwsgi_parse_array);
 
